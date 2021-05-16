@@ -1,15 +1,14 @@
 # api-rest-consulta-cidades
 API REST de consulta de cidades no Brasil
 
-# Requisitos:
+Este projeto está hospedado na plataforma Heroku, no seguinte endereço:
 
-- Java 1.16
-- Docker
+`https://stormy-scrubland-45673.herokuapp.com`
 
-# Como rodar:
+Endpoints de exemplo:
 
-- Iniciar o docker:
-
-`docker run --name cities-db --mount src="/c/workfolder/sql-paises-estados-cidades/PostgreSQL",dst=/tmp,type=bind -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres`
-
-- Rodar o projeto pela IDE IntelliJ.
+`https://stormy-scrubland-45673.herokuapp.com/countries`
+`https://stormy-scrubland-45673.herokuapp.com/states`
+`https://stormy-scrubland-45673.herokuapp.com/cities`
+`https://stormy-scrubland-45673.herokuapp.com/distances/by-points?from=4929&to=5254`
+`https://stormy-scrubland-45673.herokuapp.com/distances/by-cube?from=4929&to=5254`
