@@ -1,5 +1,8 @@
 # api-rest-consulta-cidades
-API REST de consulta de cidades no Brasil
+
+API REST construída em Java com SpringBoot, com seguintes funções:
+- Busca de países, estados e cidades;
+- Cálculo de distância entre cidades.
 
 Este projeto está hospedado na plataforma Heroku, no seguinte endereço:
 
